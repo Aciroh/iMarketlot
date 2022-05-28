@@ -1,0 +1,11 @@
+A:\Programs\Projects\iMarketlot\Graphical User Interface\Graphical User Interface\bin\Debug\Graphical User Interface.exe.config
+A:\Programs\Projects\iMarketlot\Graphical User Interface\Graphical User Interface\bin\Debug\Graphical User Interface.exe
+A:\Programs\Projects\iMarketlot\Graphical User Interface\Graphical User Interface\bin\Debug\Graphical User Interface.pdb
+A:\Programs\Projects\iMarketlot\Graphical User Interface\Graphical User Interface\obj\Debug\Graphical User Interface.csproj.AssemblyReference.cache
+A:\Programs\Projects\iMarketlot\Graphical User Interface\Graphical User Interface\obj\Debug\Graphical User Interface.csproj.SuggestedBindingRedirects.cache
+A:\Programs\Projects\iMarketlot\Graphical User Interface\Graphical User Interface\obj\Debug\Graphical_User_Interface.MainMenuForm.resources
+A:\Programs\Projects\iMarketlot\Graphical User Interface\Graphical User Interface\obj\Debug\Graphical_User_Interface.Properties.Resources.resources
+A:\Programs\Projects\iMarketlot\Graphical User Interface\Graphical User Interface\obj\Debug\Graphical User Interface.csproj.GenerateResource.cache
+A:\Programs\Projects\iMarketlot\Graphical User Interface\Graphical User Interface\obj\Debug\Graphical User Interface.csproj.CoreCompileInputs.cache
+A:\Programs\Projects\iMarketlot\Graphical User Interface\Graphical User Interface\obj\Debug\Graphical User Interface.exe
+A:\Programs\Projects\iMarketlot\Graphical User Interface\Graphical User Interface\obj\Debug\Graphical User Interface.pdb
