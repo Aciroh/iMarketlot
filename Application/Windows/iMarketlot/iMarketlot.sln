@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iMarketlot", "iMarketlot\iMarketlot.csproj", "{8A3B19E6-1730-4CB2-BEBE-A0ECEE2BB282}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A3B19E6-1730-4CB2-BEBE-A0ECEE2BB282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A3B19E6-1730-4CB2-BEBE-A0ECEE2BB282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A3B19E6-1730-4CB2-BEBE-A0ECEE2BB282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A3B19E6-1730-4CB2-BEBE-A0ECEE2BB282}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E652BA23-2D63-4710-B268-A78FBD6857D7}
+	EndGlobalSection
+EndGlobal
