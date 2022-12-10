@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "iMarketlot",
+  "name": "iMarketlot",
+  "description": "iMarketlot for Hypixel Skyblock",
   "version": "1.0",
   "mcversion": "1.8.9",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["Aciroh"],
+  "credits": "The brain",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

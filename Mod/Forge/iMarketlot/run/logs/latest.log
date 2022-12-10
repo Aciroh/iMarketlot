@@ -1,37 +1,21 @@
-[01:39:35] [Client thread/INFO]: Setting user: Player856
-[01:39:36] [Client thread/INFO]: LWJGL Version: 2.9.4
-[01:39:39] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge
-[01:39:40] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[01:39:40] [Thread-9/INFO]: Initializing LWJGL OpenAL
-[01:39:40] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[01:39:40] [Thread-9/INFO]: OpenAL initialized.
-[01:39:40] [Sound Library Loader/INFO]: Sound engine started
-[01:39:43] [Client thread/INFO]: Created: 16x16 textures-atlas
-[01:39:44] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge
-[01:39:44] [Client thread/INFO]: SoundSystem shutting down...
-[01:39:44] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[01:39:44] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[01:39:44] [Thread-11/INFO]: Initializing LWJGL OpenAL
-[01:39:44] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[01:39:44] [Thread-11/INFO]: OpenAL initialized.
-[01:39:44] [Sound Library Loader/INFO]: Sound engine started
-[01:39:47] [Client thread/INFO]: Created: 512x512 textures-atlas
-[01:40:10] [Server thread/INFO]: Starting integrated minecraft server version 1.8.9
-[01:40:10] [Server thread/INFO]: Generating keypair
-[01:40:10] [Server thread/INFO]: Converting map!
-[01:40:10] [Server thread/INFO]: Scanning folders...
-[01:40:10] [Server thread/INFO]: Total conversion count is 0
-[01:40:10] [Server thread/INFO]: Preparing start region for level 0
-[01:40:11] [Server thread/INFO]: Preparing spawn area: 16%
-[01:40:12] [Server thread/INFO]: Preparing spawn area: 34%
-[01:40:13] [Server thread/INFO]: Preparing spawn area: 54%
-[01:40:14] [Server thread/INFO]: Preparing spawn area: 72%
-[01:40:15] [Server thread/INFO]: Preparing spawn area: 93%
-[01:40:16] [Server thread/INFO]: Changing view distance to 12, from 10
-[01:40:17] [Server thread/INFO]: Player856[local:E:e08ecfe9] logged in with entity id 225 at (194.5, 64.0, 238.5)
-[01:40:17] [Server thread/INFO]: Player856 joined the game
-[01:40:23] [Server thread/INFO]: Saving and pausing game...
-[01:40:23] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[01:40:24] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[01:40:24] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[01:40:36] [Client Shutdown Thread/INFO]: Stopping server
+[03:37:05] [Client thread/INFO]: Setting user: Player760
+[03:37:07] [Client thread/INFO]: LWJGL Version: 2.9.4
+[03:37:10] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:iMarketlot
+[03:37:10] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[03:37:10] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[03:37:10] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[03:37:10] [Thread-9/INFO]: OpenAL initialized.
+[03:37:11] [Sound Library Loader/INFO]: Sound engine started
+[03:37:14] [Client thread/INFO]: Created: 16x16 textures-atlas
+[03:37:15] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:iMarketlot
+[03:37:15] [Client thread/INFO]: SoundSystem shutting down...
+[03:37:15] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[03:37:15] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[03:37:16] [Thread-11/INFO]: Initializing LWJGL OpenAL
+[03:37:16] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[03:37:16] [Thread-11/INFO]: OpenAL initialized.
+[03:37:16] [Sound Library Loader/INFO]: Sound engine started
+[03:37:19] [Client thread/INFO]: Created: 512x512 textures-atlas
+[03:37:29] [Client thread/INFO]: Stopping!
+[03:37:29] [Client thread/INFO]: SoundSystem shutting down...
+[03:37:29] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
