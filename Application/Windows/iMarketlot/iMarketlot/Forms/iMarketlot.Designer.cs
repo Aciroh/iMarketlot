@@ -110,7 +110,7 @@
             this.Controls.Add(this.rtbChatLog);
             this.Name = "FormiMarketlot";
             this.Text = "iMarketlot";
-            this.Load += new System.EventHandler(this.formiMarketlot_Load);
+            this.Load += new System.EventHandler(this.FormiMarketlot_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureboxServerStatus)).EndInit();
             this.panelStatus.ResumeLayout(false);
             this.panelStatus.PerformLayout();

@@ -15,12 +15,9 @@ namespace iMarketlot
         {
             InitializeComponent();
         }
-
-
-
-        private void formiMarketlot_Load(object sender, EventArgs e)
+        private void FormiMarketlot_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         public void setLabelServerIPValue(IPAddress ipAddress)
