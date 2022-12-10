@@ -1,0 +1,11 @@
+H:\Repos\iMarketlot\Application\Windows\iMarketlot\iMarketlot\bin\Debug\iMarketlot.exe.config
+H:\Repos\iMarketlot\Application\Windows\iMarketlot\iMarketlot\bin\Debug\iMarketlot.exe
+H:\Repos\iMarketlot\Application\Windows\iMarketlot\iMarketlot\bin\Debug\iMarketlot.pdb
+H:\Repos\iMarketlot\Application\Windows\iMarketlot\iMarketlot\obj\Debug\iMarketlot.csproj.AssemblyReference.cache
+H:\Repos\iMarketlot\Application\Windows\iMarketlot\iMarketlot\obj\Debug\iMarketlot.csproj.SuggestedBindingRedirects.cache
+H:\Repos\iMarketlot\Application\Windows\iMarketlot\iMarketlot\obj\Debug\iMarketlot.formiMarketlot.resources
+H:\Repos\iMarketlot\Application\Windows\iMarketlot\iMarketlot\obj\Debug\iMarketlot.Properties.Resources.resources
+H:\Repos\iMarketlot\Application\Windows\iMarketlot\iMarketlot\obj\Debug\iMarketlot.csproj.GenerateResource.cache
+H:\Repos\iMarketlot\Application\Windows\iMarketlot\iMarketlot\obj\Debug\iMarketlot.csproj.CoreCompileInputs.cache
+H:\Repos\iMarketlot\Application\Windows\iMarketlot\iMarketlot\obj\Debug\iMarketlot.exe
+H:\Repos\iMarketlot\Application\Windows\iMarketlot\iMarketlot\obj\Debug\iMarketlot.pdb

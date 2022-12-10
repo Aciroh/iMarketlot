@@ -1,6 +1,8 @@
-﻿using System;
+﻿using iMarketlot.EventHandlers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -16,7 +18,16 @@ namespace iMarketlot
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            FormiMarketlot formiMarketlot = new FormiMarketlot();
+            Thread formThread = new Thread(new ParameterizedThreadStart(startMainForm));
+            formThread.Start(formiMarketlot);
+            ChatLogServerHandler chatLogServerHandler = new ChatLogServerHandler(formiMarketlot);
+        }
+
+        private static void startMainForm(object o)
+        {
+            FormiMarketlot formiMarketlot = (FormiMarketlot)o;
+            Application.Run(formiMarketlot);
         }
     }
 }

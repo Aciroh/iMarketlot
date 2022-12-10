@@ -1,21 +1,15 @@
 package com.aciroh.imarketlot.update;
 
+import com.aciroh.imarketlot.network.Reader;
 import com.aciroh.imarketlot.reference.Reference;
 import com.aciroh.imarketlot.reference.UpdateInfo;
 import com.aciroh.imarketlot.utils.LogHelper;
-import scala.collection.script.Update;
-
-import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.Scanner;
-
-import static org.lwjgl.util.mapped.MappedObject.foreach;
 
 public class UpdateCheck {
     public static void checkForUpdates() {
         try {
-
             HttpURLConnection connection = (HttpURLConnection) new URL(UpdateInfo.path).openConnection();
             connection.setRequestMethod("HEAD");
             int responseCode = connection.getResponseCode();
@@ -24,21 +18,19 @@ public class UpdateCheck {
             if (responseCode != 200) {
                 UpdateInfo.error = true;
             }
-            Scanner scanner = new Scanner(new URL(UpdateInfo.path).openStream());
-            while (scanner.hasNextLine()) {
-                UpdateInfo.file.add(scanner.nextLine());
-            }
-            scanner.close();
-            if(!UpdateInfo.file.get(0).startsWith("0")) {
+            UpdateInfo.file = Reader.readFileFromURL(UpdateInfo.path);
+            UpdateInfo.version = UpdateInfo.file.get(0);
+            if(!UpdateInfo.version.startsWith("0")) {
                 UpdateInfo.error = true;
             } else {
-                if(Reference.MOD_VERSION != UpdateInfo.file.get(0)){
+                if(!Reference.MOD_VERSION.equals(UpdateInfo.version)){
                     UpdateInfo.isAvailable = true;
-                    UpdateInfo.description = UpdateInfo.file.subList(1, (int) UpdateInfo.file.stream().count());
+                    UpdateInfo.description = UpdateInfo.file.subList(1, UpdateInfo.file.size());
                 }
             }
-        } catch (IOException e) {
-            e.printStackTrace();
+        } catch (Exception e) {
+            System.out.println("File not successfully read");
+            throw new RuntimeException(e);
         }
     }
 }
