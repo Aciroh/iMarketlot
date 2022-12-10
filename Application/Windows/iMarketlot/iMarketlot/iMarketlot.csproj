@@ -51,15 +51,24 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="EventHandlers\ChatLogServerHandler.cs" />
-    <Compile Include="iMarketlot.cs">
+    <Compile Include="Forms\Configuration.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="iMarketlot.Designer.cs">
+    <Compile Include="Forms\Configuration.Designer.cs">
+      <DependentUpon>Configuration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\iMarketlot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\iMarketlot.Designer.cs">
       <DependentUpon>iMarketlot.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="iMarketlot.resx">
+    <EmbeddedResource Include="Forms\Configuration.resx">
+      <DependentUpon>Configuration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\iMarketlot.resx">
       <DependentUpon>iMarketlot.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
