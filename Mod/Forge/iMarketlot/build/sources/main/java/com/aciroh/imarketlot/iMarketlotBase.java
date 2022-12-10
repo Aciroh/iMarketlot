@@ -1,6 +1,7 @@
 package com.aciroh.imarketlot;
 
 
+import com.aciroh.imarketlot.events.LoginChat;
 import com.aciroh.imarketlot.handlers.ConfigurationHandler;
 import com.aciroh.imarketlot.proxy.IProxy;
 import com.aciroh.imarketlot.reference.Reference;
@@ -33,6 +34,8 @@ public class iMarketlotBase {
         String configDir = event.getModConfigurationDirectory().toString();
         ConfigurationHandler.init(configDir);
         MinecraftForge.EVENT_BUS.register(new ConfigurationHandler());
+        MinecraftForge.EVENT_BUS.register(new LoginChat());
+
         LogHelper.info("Pre Initialization of iMarketlot");
     }
 

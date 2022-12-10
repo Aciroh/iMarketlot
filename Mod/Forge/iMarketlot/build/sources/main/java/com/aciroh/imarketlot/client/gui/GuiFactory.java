@@ -1,4 +1,4 @@
-package com.aciroh.imarketlot.gui;
+package com.aciroh.imarketlot.client.gui;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiScreen;

@@ -10,13 +10,12 @@ import java.io.File;
 public class ConfigurationHandler {
     public static Configuration configuration;
 
-    public static String CATEGORY_UPDATECHECK = "Update Check";
 
     public static boolean updateCheck = true;
 
     public static void init(String configDir) {
         if (configuration == null) {
-            File path = new File(configDir + Reference.MOD_ID + ".cfg");
+            File path = new File(configDir + "/" + Reference.MOD_ID + ".cfg");
 
             configuration = new Configuration(path);
 
@@ -25,7 +24,7 @@ public class ConfigurationHandler {
     }
 
     private static void loadConfiguration() {
-        updateCheck = configuration.getBoolean("checkForUpdates", CATEGORY_UPDATECHECK, true, "Allow this mod to check for updates?");
+        updateCheck = configuration.getBoolean("checkForUpdates", Configuration.CATEGORY_GENERAL, true, "Allow this mod to check for updates?");
 
         if (configuration.hasChanged()) {
             configuration.save();
