@@ -9,3 +9,5 @@ H:\Repos\iMarketlot\Application\Windows\iMarketlot\iMarketlot\obj\Debug\iMarketl
 H:\Repos\iMarketlot\Application\Windows\iMarketlot\iMarketlot\obj\Debug\iMarketlot.csproj.CoreCompileInputs.cache
 H:\Repos\iMarketlot\Application\Windows\iMarketlot\iMarketlot\obj\Debug\iMarketlot.exe
 H:\Repos\iMarketlot\Application\Windows\iMarketlot\iMarketlot\obj\Debug\iMarketlot.pdb
+H:\Repos\iMarketlot\Application\Windows\iMarketlot\iMarketlot\obj\Debug\iMarketlot.FormConfiguration.resources
+H:\Repos\iMarketlot\Application\Windows\iMarketlot\iMarketlot\obj\Debug\iMarketlot.Forms.FormError.resources

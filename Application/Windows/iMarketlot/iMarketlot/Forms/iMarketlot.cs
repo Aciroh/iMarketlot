@@ -1,4 +1,5 @@
 ﻿using iMarketlot.API;
+using iMarketlot.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -60,6 +61,11 @@ namespace iMarketlot
                     }
                 )
             );
+        }
+
+        private void configToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Configurator.run(true);
         }
     }
 }
