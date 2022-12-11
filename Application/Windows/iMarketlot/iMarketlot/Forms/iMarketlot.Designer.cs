@@ -34,7 +34,7 @@ namespace iMarketlot
             this.Icon = Icon.FromHandle(Properties.Resources.logo.GetHicon());
             this.rtbChatLog = new System.Windows.Forms.RichTextBox();
             this.labelServerStatus = new System.Windows.Forms.Label();
-            this.pictureboxServerStatus = new iMarketlot.OvalPictureBox();
+            this.pictureboxServerStatus = new System.Windows.Forms.PictureBox();
             this.labelServerIP = new System.Windows.Forms.Label();
             this.labelServerIPValue = new System.Windows.Forms.Label();
             this.panelStatus = new System.Windows.Forms.Panel();
@@ -151,7 +151,7 @@ namespace iMarketlot
 
         private System.Windows.Forms.RichTextBox rtbChatLog;
         private System.Windows.Forms.Label labelServerStatus;
-        private OvalPictureBox pictureboxServerStatus;
+        private System.Windows.Forms.PictureBox pictureboxServerStatus;
         private System.Windows.Forms.Label labelServerIP;
         private System.Windows.Forms.Label labelServerIPValue;
         private System.Windows.Forms.Panel panelStatus;

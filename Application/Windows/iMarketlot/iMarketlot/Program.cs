@@ -1,4 +1,5 @@
 ﻿using iMarketlot.EventHandlers;
+using iMarketlot.Forms;
 using iMarketlot.Utilities;
 using System;
 using System.Collections.Generic;
@@ -19,6 +20,8 @@ namespace iMarketlot
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            FormSplash splash= new FormSplash();
+            Application.Run(splash);
             Configurator.run();
             FormiMarketlot formiMarketlot = new FormiMarketlot();
             Thread formThread = new Thread(new ParameterizedThreadStart(startMainForm));
