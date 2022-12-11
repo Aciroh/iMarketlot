@@ -1,4 +1,5 @@
 ﻿using iMarketlot.API;
+using iMarketlot.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -15,12 +16,9 @@ namespace iMarketlot
         {
             InitializeComponent();
         }
-
-
-
-        private void formiMarketlot_Load(object sender, EventArgs e)
+        private void FormiMarketlot_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         public void setLabelServerIPValue(IPAddress ipAddress)
@@ -63,6 +61,11 @@ namespace iMarketlot
                     }
                 )
             );
+        }
+
+        private void configToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Configurator.run(true);
         }
     }
 }
