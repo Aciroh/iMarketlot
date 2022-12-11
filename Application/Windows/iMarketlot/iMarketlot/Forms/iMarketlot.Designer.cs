@@ -1,4 +1,7 @@
-﻿namespace iMarketlot
+﻿using iMarketlot.Properties;
+using System.Drawing;
+
+namespace iMarketlot
 {
     partial class FormiMarketlot
     {
@@ -28,6 +31,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.Icon = Icon.FromHandle(Properties.Resources.logo.GetHicon());
             this.rtbChatLog = new System.Windows.Forms.RichTextBox();
             this.labelServerStatus = new System.Windows.Forms.Label();
             this.pictureboxServerStatus = new iMarketlot.OvalPictureBox();
