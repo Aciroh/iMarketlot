@@ -1,4 +1,4 @@
-iMarketLot/.gradle/*
-iMarketLot/build/*
-iMarketlot/run/usercache.json
-iMarketlot/run/logs/*
+*.log.gz
+*/.gradle/*
+*/build/*
+*/logs/*
