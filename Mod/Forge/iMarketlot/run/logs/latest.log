@@ -1,37 +1,21 @@
-[23:12:17] [Client thread/INFO]: Setting user: Player758
-[23:12:18] [Client thread/INFO]: LWJGL Version: 2.9.4
-[23:12:22] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:iMarketlot Trader
-[23:12:22] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[23:12:22] [Thread-9/INFO]: Initializing LWJGL OpenAL
-[23:12:22] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[23:12:22] [Thread-9/INFO]: OpenAL initialized.
-[23:12:23] [Sound Library Loader/INFO]: Sound engine started
-[23:12:26] [Client thread/INFO]: Created: 16x16 textures-atlas
-[23:12:27] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:iMarketlot Trader
-[23:12:27] [Client thread/INFO]: SoundSystem shutting down...
-[23:12:27] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[23:12:27] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[23:12:27] [Thread-11/INFO]: Initializing LWJGL OpenAL
-[23:12:27] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[23:12:27] [Thread-11/INFO]: OpenAL initialized.
-[23:12:28] [Sound Library Loader/INFO]: Sound engine started
-[23:12:31] [Client thread/INFO]: Created: 512x512 textures-atlas
-[23:12:34] [Server thread/INFO]: Starting integrated minecraft server version 1.8.9
-[23:12:34] [Server thread/INFO]: Generating keypair
-[23:12:34] [Server thread/INFO]: Preparing start region for level 0
-[23:12:35] [Server thread/INFO]: Changing view distance to 12, from 10
-[23:12:36] [Server thread/INFO]: Player758[local:E:7ad9241c] logged in with entity id 295 at (200.14844907637013, 75.0, 219.07531845917424)
-[23:12:36] [Server thread/INFO]: Player758 joined the game
-[23:12:37] [Client thread/INFO]: [CHAT] iMarketlot CHECKED
-[23:12:37] [Client thread/INFO]: [CHAT] Your version: 0.0.1 Latest version: 0.0.0
-[23:12:39] [Server thread/INFO]: <Player758> Test
-[23:12:39] [Client thread/INFO]: [CHAT] <Player758> Test
-[23:13:57] [Server thread/INFO]: <Player758> Test
-[23:13:57] [Client thread/INFO]: [CHAT] <Player758> Test
-[23:17:28] [Server thread/INFO]: <Player758> Hello
-[23:17:28] [Client thread/INFO]: [CHAT] <Player758> Hello
-[23:18:06] [Server thread/INFO]: <Player758> Hello
-[23:18:06] [Client thread/INFO]: [CHAT] <Player758> Hello
-[23:18:15] [Server thread/INFO]: <Player758> MUIE
-[23:18:15] [Client thread/INFO]: [CHAT] <Player758> MUIE
-[23:50:53] [Client Shutdown Thread/INFO]: Stopping server
+[03:04:31] [Client thread/INFO]: Setting user: Player993
+[03:04:33] [Client thread/INFO]: LWJGL Version: 2.9.4
+[03:04:34] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:iMarketlot Trader
+[03:04:35] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[03:04:35] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[03:04:35] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[03:04:35] [Thread-9/INFO]: OpenAL initialized.
+[03:04:35] [Sound Library Loader/INFO]: Sound engine started
+[03:04:36] [Client thread/INFO]: Created: 16x16 textures-atlas
+[03:04:37] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:iMarketlot Trader
+[03:04:37] [Client thread/INFO]: SoundSystem shutting down...
+[03:04:37] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[03:04:37] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[03:04:37] [Thread-11/INFO]: Initializing LWJGL OpenAL
+[03:04:37] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[03:04:37] [Thread-11/INFO]: OpenAL initialized.
+[03:04:37] [Sound Library Loader/INFO]: Sound engine started
+[03:04:38] [Client thread/INFO]: Created: 512x512 textures-atlas
+[03:04:43] [Client thread/INFO]: Stopping!
+[03:04:43] [Client thread/INFO]: SoundSystem shutting down...
+[03:04:43] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
